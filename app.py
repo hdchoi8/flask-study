@@ -6,7 +6,7 @@ from resources.item import Item, ItemList
 from resources.user import UserRegister
 from resources.store import Store, StoreList
 
-#hi test
+
 app = Flask(__name__)
 api = Api(app)
 app.secret_key = 'hdchoi'
